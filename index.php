@@ -619,7 +619,7 @@ if (select.addEventListener) {
     select.addEventListener("change", function(){
         var styleName = this.value;
         stylecall.setAttribute("href", "wampthemes/" + styleName + "/style.css");
-        localStorage.setItem("wampStyle", styleName);
+        localStorage.setItem("wampStyle", styleName);阿发发发
     })
 }
 </script>
